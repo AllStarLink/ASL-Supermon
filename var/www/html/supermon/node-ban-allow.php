@@ -16,6 +16,7 @@ if ($_SESSION['sm61loggedin'] !== true) {
 -->
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
   <link type="text/css" rel="stylesheet" href="supermon.css">
 </head>
 <body style="background-color: powderblue;">

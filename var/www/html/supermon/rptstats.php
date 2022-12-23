@@ -9,6 +9,7 @@ include("amifunctions.inc");
 // Be sure to allow popups from your Allmon web server to your browser!!
 // Major update by KB4FXC 02/2018
 
+print "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head>";
 $node = (int) trim(strip_tags($_GET['node']));
 $localnode = (int) trim(strip_tags($_GET['localnode']));
 

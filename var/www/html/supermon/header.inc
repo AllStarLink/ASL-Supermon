@@ -49,6 +49,7 @@ if (!empty($var1[1])) {
   <meta name="robots" content="noindex, nofollow">
   <meta name="author" content="Tim Sawyer, WD6AWP">
   <meta name="mods" content="New features, IRLP capability, Paul Aidukas, KN2R">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link type="text/css" rel="stylesheet" href="supermon.css">

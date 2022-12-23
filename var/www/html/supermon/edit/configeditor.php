@@ -13,7 +13,9 @@ include("../session.inc");
 $SUPERMON_DIR = "/var/www/html/supermon";
 
 include("../global.inc");
-print "<html>\n<body style=\"background-color:powderblue;\">\n";
+print "<html>";
+print "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head>";
+print "<body style=\"background-color:powderblue;\">\n";
 print "<font face=Arial size=2>\n";
 if ($_SESSION['sm61loggedin'] === true) {
     print "<form name=REFRESH method=POST action='./configeditor.php'>";

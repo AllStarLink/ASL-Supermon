@@ -47,6 +47,7 @@ if ($_SESSION['sm61loggedin'] === true) {
       echo $title; ?></title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="generator" content="By hand with a text editor">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="SuperMon Favorites Panel">
   <meta name="keywords" content="allstar monitor, app_rpt, asterisk">
   <meta name="author" content="Tim Sawyer, WD6AWP">

@@ -10,6 +10,7 @@ include("session.inc");
 ?>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CPU and System Status</title>
 </head>
 <body>

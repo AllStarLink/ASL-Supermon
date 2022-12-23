@@ -17,6 +17,7 @@ $perm = @trim(strip_tags($_GET['perm']));
 ?>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="astlookup.css"/>
   <title>Opening information for: <?php
       echo "$node"; ?></title>

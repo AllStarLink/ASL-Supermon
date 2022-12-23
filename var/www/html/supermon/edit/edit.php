@@ -7,6 +7,7 @@ include("../session.inc");
 // Be sure to allow popups from your Allmon web server to your browser!!
 // Changes: KB4FXC 2018-02-04
 
+print "<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"></head>";
 if ($_SESSION['sm61loggedin'] !== true) {
     die ("<br><h3>ERROR: You Must login to use the 'Edit' function!</h3>");
 }
